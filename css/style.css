@@ -1,0 +1,25 @@
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+
+
+.flexbox {
+  border: 20px solid rgb(233, 178, 116);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+}
+.flexbox__item {
+  border: 20px solid rgb(170, 94, 233);
+  min-width: 100px;
+  min-height: 100px;
+}
+
